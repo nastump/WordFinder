@@ -10,8 +10,8 @@ public class WordFinder {
 	
 	String strLine, strWord, letter;
         
-	Boolean isGram = true;
-        int wordPosition = 0, rackPosition = 0;
+	Boolean isGram;
+        int wordPosition, rackPosition;
 //test
 	while ((strLine = helper.readLineFromFile()) != null){			//read a line (word) from the file
 	    strWord = strLine;							//make a copy to work on
