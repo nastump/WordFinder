@@ -12,7 +12,7 @@ public class WordFinder {
         
 	Boolean isGram;
         int wordPosition, rackPosition;
-//test
+
 	while ((strLine = helper.readLineFromFile()) != null){			//read a line (word) from the file
 	    strWord = strLine;							//make a copy to work on
 	    rackPosition = 0;							//reset vars for each line
@@ -38,9 +38,6 @@ public class WordFinder {
 	    }
 
 	}
-
-//	helper.closeDictionary();
-
         System.out.println("\nTotal Anagrams Found: " + gramCount);
     }
     
